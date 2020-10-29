@@ -2,9 +2,11 @@
 using namespace std;
 
 int main(){
-    cout<<"Hello! Aditya is learning git";
-    cout<<"\ni am learning git status command ";
-    int n=3;
-    cout<<"\nthis no is "<<n<<"";
+    for(int i=0;i<5;i++){
+        for(int j=i;j<5;j++){
+            cout<<"*"<<" ";
+        }
+        cout<<endl;
+    }
     return 0;
 }
